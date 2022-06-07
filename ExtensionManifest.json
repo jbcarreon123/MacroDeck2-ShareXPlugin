@@ -4,6 +4,7 @@
   "author": "jbcarreon123",
   "packageId": "jbcarreon123.ShareXPlugin",
   "version": "1.0.0",
+  "repository": "https://github.com/jbcarreon123/MacroDeck2-ShareXPlugin",
   "target-plugin-api-version": 32,
   "dll": "jbcarreon123.ShareXPlugin.dll"
   }
