@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<PluginStrings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<__Language__>English<__Language__>
+<__LanguageCode__>en<__LanguageCode__>
+<__Author__>jbcarreon123<__Author__>
+
+<AbortScreenRecordingAction>Screen Recording - Abort</AbortScreenRecordingAction>
+<AbortScreenRecordingActionDescription>Abort a screen recording</AbortScreenRecordingActionDescription>
+<ActiveMonitorAction>Screenshot - Active Monitor</ActiveMonitorAction>
+<ActiveMonitorActionDescription>Screenshot the active monitor</ActiveMonitorActionDescription>
+<ActiveWindowAction>Screenshot - Active Window</ActiveWindowAction>
+<ActiveWindowActionDescription>Screenshot the active window</ActiveWindowActionDescription>
+<AutoCaptureAction>Screenshot - Auto Capture</AutoCaptureAction>
+<AutoCaptureActionDescription>Screenshot automatically</AutoCaptureActionDescription>
+<BorderlessWindowAction>Tools - Borderless Window</BorderlessWindowAction>
+<BorderlessWindowActionDescription>Make window borderless</BorderlessWindowActionDescription>
+<ClipboardUploadAction>Upload - Clipboard</ClipboardUploadAction>
+<ClipboardUploadActionDescription>Upload contents of current clipboard</ClipboardUploadActionDescription>
+<ClipboardUploadWithContentViewerAction>Upload - Clipboard [with Content Viewer]</ClipboardUploadWithContentViewerAction>
+<ClipboardUploadWithContentViewerActionDescription>Upload contents of current clipboard and check it if it's correct</ClipboardUploadWithContentViewerActionDescription>
+<ClipboardViewerAction>Tools - Clipboard Viewer</ClipboardViewerAction>
+<ClipboardViewerActionDescription>View contents of clipboard</ClipboardViewerActionDescription>
+<ColorPickerAction>Tools - Color Picker</ColorPickerAction>
+<ColorPickerActionDescription>Color picker</ColorPickerActionDescription>
+<CustomRegionAction>Screenshot - Custom Region</CustomRegionAction>
+<CustomRegionActionDescription>Screenshot a custom region</CustomRegionActionDescription>
+<DNSChangerAction>Tools - DNS Changer</DNSChangerAction>
+<DNSChangerActionDescription>Change your Domain Name System [DNS]</DNSChangerActionDescription>
+<DisableHotkeysAction>Other - Disable Hotkeys</DisableHotkeysAction>
+<DisableHotkeysActionDescription>Disable ShareX Hotkeys</DisableHotkeysActionDescription>
+<DragDropUploadAction>Upload - Drag and Drop</DragDropUploadAction>
+<DragDropUploadActionDescription>Upload using Drag and Drop</DragDropUploadActionDescription>
+<ExitShareXAction>Other - Exit ShareX</ExitShareXAction>
+<ExitShareXActionDescription>Exit ShareX process</ExitShareXActionDescription>
+<FileUploadAction>Upload - File</FileUploadAction>
+<FileUploadActionDescription>Upload a file</FileUploadActionDescription>
+<FolderUploadAction>Upload - Folder</FolderUploadAction>
+<FolderUploadActionDescription>Upload a folder</FolderUploadActionDescription>
+<HashCheckAction>Tools - Hash Check</HashCheckAction>
+<HashCheckActionDescription>Check file's hash</HashCheckActionDescription>
+<ImageCombinerAction>Tools - Image Combiner</ImageCombinerAction>
+<ImageCombinerActionDescription>Combine a image</ImageCombinerActionDescription>
+<ImageEditorAction>Tools - Image Editor</ImageEditorAction>
+<ImageEditorActionDescription>Edit a image</ImageEditorActionDescription>
+<ImageEffectsAction>Tools - Image Effects</ImageEffectsAction>
+<ImageEffectsActionDescription>Add an effect on a image</ImageEffectsActionDescription>
+<ImageSplitterAction>Tools - Image Splitter</ImageSplitterAction>
+<ImageSplitterActionDescription>Split a image</ImageSplitterActionDescription>
+<ImageThumbnailerAction>Tools - Image Thumbnailer</ImageThumbnailerAction>
+<ImageThumbnailerActionDescription>Add a thumbnail on a image</ImageThumbnailerActionDescription>
+<ImageViewerAction>Tools - Image Viewer</ImageViewerAction>
+<ImageViewerActionDescription>View a image</ImageViewerActionDescription>
+<IndexFolderAction>Tools - Directory Indexer</IndexFolderAction>
+<IndexFolderActionDescription>Index a directory/folder</IndexFolderActionDescription>
+<InspectWindowAction>Tools - Inspect Window</InspectWindowAction>
+<InspectWindowActionDescription>Inspect a window</InspectWindowActionDescription>
+<LastRegionAction>Screenshot - Last Region</LastRegionAction>
+<LastRegionActionDescription>Screenshot the last specified region</LastRegionActionDescription>
+<MonitorTestAction>Tools - Monitor Test</MonitorTestAction>
+<MonitorTestActionDescription>Test a monitor</MonitorTestActionDescription>
+<OCRAction>Tools - OCR [Optical Character Recognition]</OCRAction>
+<OCRActionDescription>Convert a image to text</OCRActionDescription>
+<OpenHistoryAction>Other - Open History</OpenHistoryAction>
+<OpenHistoryActionDescription>Open ShareX History</OpenHistoryActionDescription>
+<OpenImageHistoryAction>Other - Open Image History</OpenImageHistoryAction>
+<OpenImageHistoryActionDescription>Open ShareX Image History</OpenImageHistoryActionDescription>
+<OpenMainWindowAction>Other - Open Main Window</OpenMainWindowAction>
+<OpenMainWindowActionDescription>Open ShareX Window</OpenMainWindowActionDescription>
+<OpenScreenshotsFolderAction>Other - Open Screenshots Folder</OpenScreenshotsFolderAction>
+<OpenScreenshotsFolderActionDescription>Open ShareX Screenshots Folder</OpenScreenshotsFolderActionDescription>
+<PrintScreenAction>Screenshot - All monitors</PrintScreenAction>
+<PrintScreenActionDescription>Screenshot all the monitors [Print Screen]</PrintScreenActionDescription>
+<QRCodeAction>Tools - Encode QR Code</QRCodeAction>
+<QRCodeActionDescription>Encode a QR Code</QRCodeActionDescription>
+<QRCodeDecodeFromScreenAction>Tools - Decode QR Code</QRCodeDecodeFromScreenAction>
+<QRCodeDecodeFromScreenActionDescription>Decode a QR Code</QRCodeDecodeFromScreenActionDescription>
+<RectangleLightAction>Screenshot - Rectangle Region [Light]</RectangleLightAction>
+<RectangleLightActionDescription>Screenshot a region [Light]</RectangleLightActionDescription>
+<RectangleRegionAction>Screenshot - Rectangle Region</RectangleRegionAction>
+<RectangleRegionActionDescription>Screenshot a region</RectangleRegionActionDescription>
+<RectangleTransparentAction>Screenshot - Rectangle Region [Transparent]</RectangleTransparentAction>
+<RectangleTransparentActionDescription>Screenshot a region</RectangleTransparentActionDescription>
+<RulerAction>Tools - Ruler</RulerAction>
+<RulerActionDescription>Ruler</RulerActionDescription>
+<ScreenColorPickerAction>Tools - Screen Color Picker</ScreenColorPickerAction>
+<ScreenColorPickerActionDescription>Pick a color from screen</ScreenColorPickerActionDescription>
+<ScreenRecorderAction>Screen Record - All Monitor</ScreenRecorderAction>
+<ScreenRecorderActionDescription>Screenshot all monitors</ScreenRecorderActionDescription>
+<ScreenRecorderActiveWindowAction>Screen Record - Active Window</ScreenRecorderActiveWindowAction>
+<ScreenRecorderActiveWindowActionDescription>Screen record the active window</ScreenRecorderActiveWindowActionDescription>
+<ScreenRecorderCustomRegionAction>Screen Record - Custom Region</ScreenRecorderCustomRegionAction>
+<ScreenRecorderCustomRegionActionDescription>Screen record a custom region</ScreenRecorderCustomRegionActionDescription>
+<ScreenRecorderGIFAction>Screen Record - All Monitor [GIF]</ScreenRecorderGIFAction>
+<ScreenRecorderGIFActionDescription>Screenshot all monitors [GIF]</ScreenRecorderGIFActionDescription>
+<ScreenRecorderGIFActiveWindowAction>Screen Record - Active Window [GIF]</ScreenRecorderGIFActiveWindowAction>
+<ScreenRecorderGIFActiveWindowActionDescription>Screen record the active window [GIF]</ScreenRecorderGIFActiveWindowActionDescription>
+<ScreenRecorderGIFCustomRegionAction>Screen Record - Custom Region [GIF]</ScreenRecorderGIFCustomRegionAction>
+<ScreenRecorderGIFCustomRegionActionDescription>Screen record a custom region [GIF]</ScreenRecorderGIFCustomRegionActionDescription>
+<ScrollingCaptureAction>Screenshot - Scrolling</ScrollingCaptureAction>
+<ScrollingCaptureActionDescription>Scrolling capture</ScrollingCaptureActionDescription>
+<ShortenURLAction>Upload - URL Shortener</ShortenURLAction>
+<ShortenURLActionDescription>Shorten a URL</ShortenURLActionDescription>
+<StartAutoCaptureAction>Screenshot - Start Auto Capture</StartAutoCaptureAction>
+<StartAutoCaptureActionDescription>Start the specified auto capture configuration</StartAutoCaptureActionDescription>
+<StartScreenRecorderAction>Screen Record - Start</StartScreenRecorderAction>
+<StartScreenRecorderActionDescription>Start the screen record</StartScreenRecorderActionDescription>
+<StartScreenRecorderGIFAction>Screen Record - Start [GIF]</StartScreenRecorderGIFAction>
+<StartScreenRecorderGIFActionDescription>Start the screen record [GIF]</StartScreenRecorderGIFActionDescription>
+<StopScreenRecordingAction>Screen Record - Stop</StopScreenRecordingAction>
+<StopScreenRecordingActionDescription>Stop the screen record</StopScreenRecordingActionDescription>
+<StopUploadsAction>Upload - Stop</StopUploadsAction>
+<StopUploadsActionDescription>Stop uploads</StopUploadsActionDescription>
+<ToggleActionsToolbarAction>Other - Toggle Actions Toolbar</ToggleActionsToolbarAction>
+<ToggleActionsToolbarActionDescription>Toggle the actions toolbar</ToggleActionsToolbarActionDescription>
+<ToggleTrayMenuAction>Other - Toggle Tray Menu</ToggleTrayMenuAction>
+<ToggleTrayMenuActionDescription>Toggle the tray menu</ToggleTrayMenuActionDescription>
+<TweetMessageAction>Upload - Tweet Message</TweetMessageAction>
+<TweetMessageActionDescription>Tweet a message</TweetMessageActionDescription>
+<UploadTextAction>Upload - Text</UploadTextAction>
+<UploadTextActionDescription>Upload a text</UploadTextActionDescription>
+<UploadURLAction>Upload - URL</UploadURLAction>
+<UploadURLActionDescription>Upload a URL</UploadURLActionDescription>
+<VideoConverterAction>Tools - Video Converter</VideoConverterAction>
+<VideoConverterActionDescription>Convert a video</VideoConverterActionDescription>
+
+<ShareXPath>ShareX Install Directory</ShareXPath>
+<Cancel>Cancel</Cancel>
+<CantFindEXE>Can't find ShareX.exe</CantFindEXE>
+<CantFindEXE1>Can't find ShareX.exe. Maybe the path is the parent of
+ShareX or the Portable drive letter is changed.</CantFindEXE1>
+<ShareXPathExpl>Why it requires the Install path of ShareX?
+
+Because ShareX does not have a control
+API(AFAIK) that I can use.
+If I found a ShareX control API that is
+compatible on .NET and Macro Deck
+I will update this plugin to use it.</ShareXPathExpl>
+
+</PluginStrings>
