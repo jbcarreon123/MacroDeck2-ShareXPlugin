@@ -21,7 +21,7 @@ To automate most of this plugin:
 
 ## Language
 This plugin has its own localization files, independent of Macro Deck. If your language is not available, the plugin will default to English.   
-Check Resources\Languages for your localization files. If your language is either incomplete, incorrect, or not existing at all, please consider helping me by translating your language!
+Check [Resources\Languages](https://github.com/jbcarreon123/MacroDeck2-ShareXPlugin/tree/c63aa617860eb316db3937081e3f8d503557b9b1/Resources/Languages) for your localization files. If your language is either incomplete, incorrect, or not existing at all, please consider helping me by translating your language!
 
 Current languages:   
 - English   
