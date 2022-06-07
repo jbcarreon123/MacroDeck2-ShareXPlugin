@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Languages\English.json" />
+    <None Remove="Resources\Languages\Filipino.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="Macro Deck 2">
       <HintPath>C:\Program Files\Macro Deck\Macro Deck 2.dll</HintPath>
     </Reference>

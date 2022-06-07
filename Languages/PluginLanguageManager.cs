@@ -3,21 +3,22 @@
  */
 
 using SuchByte.MacroDeck.Language;
-using SuchByte.MacroDeck.Logging;
-using jbcarreon123.ShareXPlugin.Languages;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Text.Json;
-
+using System.Xml.Serialization;
 
 namespace jbcarreon123.ShareXPlugin.Languages
 {
     public static class PluginLanguageManager
     {
         public static PluginStrings PluginStrings = new PluginStrings();
+
+
+
 
         public static void Initialize()
         {
@@ -32,26 +33,29 @@ namespace jbcarreon123.ShareXPlugin.Languages
 
             try
             {
-                PluginStrings = JsonSerializer.Deserialize<PluginStrings>(GetJsonLanguageResource(languageName));
+                using (TextReader reader = new StringReader(GetXMLLanguageResource(languageName)))
+                {
+                    PluginStrings = (PluginStrings)new XmlSerializer(typeof(PluginStrings)).Deserialize(reader);
+                }
             }
-            catch (Exception ex)
+            catch
             {
                 //fallback - should never occur if things are done properly
                 PluginStrings = new PluginStrings();
-                MacroDeckLogger.Trace(Main.Instance, "Failed to load language: " + ex.Message);
             }
         }
 
-        private static string GetJsonLanguageResource(string languageName)
+
+        private static string GetXMLLanguageResource(string languageName)
         {
             var assembly = typeof(PluginStrings).Assembly;
             if (string.IsNullOrEmpty(languageName)
-                || !assembly.GetManifestResourceNames().Any(name => name.EndsWith($"{languageName}.json")))
+                || !assembly.GetManifestResourceNames().Any(name => name.EndsWith($"{languageName}.xml")))
             {
                 languageName = "English"; //This should always be present as default, otherwise the code goes to fallback implementation.
             }
 
-            string languageFileName = $"jbcarreon123.ShareXPlugin.Resources.Languages.{languageName}.json";
+            string languageFileName = $"jbcarreon123.ShareXPlugin.Resources.Languages.{languageName}.xml";
 
             using var resourceStream = assembly.GetManifestResourceStream(languageFileName);
             using var streamReader = new StreamReader(resourceStream);
