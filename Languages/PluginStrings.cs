@@ -134,5 +134,7 @@ namespace jbcarreon123.ShareXPlugin.Languages
         public string CantFindEXE = "Can't find ShareX.exe";
         public string CantFindEXE1 = "Can't find ShareX.exe. Maybe the path is the parent of\r\nShareX or the Portable drive letter is changed.";
         public string ShareXPathExpl = "Why it requires the Install path of ShareX?\r\n\r\nBecause ShareX does not have a control\r\nAPI(AFAIK) that I can use.\r\nIf I found a ShareX control API that is\r\ncompatible on .NET, and Macro Deck,\r\nI will update this plugin to use it.";
+        public string ActionRequired = "Action required";
+        public string ActionRequiredDesc = "One of the actions are required and you didn't put anything.";
     }
 }

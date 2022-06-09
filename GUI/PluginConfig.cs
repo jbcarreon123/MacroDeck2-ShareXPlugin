@@ -1,28 +1,18 @@
 ﻿using System;
+using SuchByte.MacroDeck;
 using System.Linq;
 using System.Windows.Forms;
 using System.IO;
 using SuchByte.MacroDeck.Plugins;
 using jbcarreon123.ShareXPlugin.Languages;
 using SuchByte.MacroDeck.Language;
+using SuchByte.MacroDeck.GUI.CustomControls;
 using System.Runtime.InteropServices;
 
 namespace jbcarreon123.ShareXPlugin.GUI
 {
-    public partial class PluginConfig : Form
+    public partial class PluginConfig : DialogForm
     {
-        // from https://stackoverflow.com/questions/18822067/rounded-corners-in-c-sharp-windows-forms
-        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
-        private static extern IntPtr CreateRoundRectRgn
-        (
-            int nLeftRect,     // x-coordinate of upper-left corner
-            int nTopRect,      // y-coordinate of upper-left corner
-            int nRightRect,    // x-coordinate of lower-right corner
-            int nBottomRect,   // y-coordinate of lower-right corner
-            int nWidthEllipse, // width of ellipse
-            int nHeightEllipse // height of ellipse
-        );
-
         public MacroDeckPlugin IMacroDeckPlugin { get; private set; }
 
         public PluginConfig()
@@ -33,7 +23,6 @@ namespace jbcarreon123.ShareXPlugin.GUI
             btnOK.Text = LanguageManager.Strings.Ok;
             btnCancel.Text = PluginLanguageManager.PluginStrings.Cancel;
             textBox1.Text = PluginConfigHelper.GetPath();
-            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -51,14 +40,32 @@ namespace jbcarreon123.ShareXPlugin.GUI
             if (File.Exists(folderpath + "\\ShareX.exe"))
             {
                 label3.Visible = false;
-                PluginConfigHelper.UpdatePath(folderpath);
-                this.Close();
+                label5.Visible = false;
+                using var messageBox = new SuchByte.MacroDeck.GUI.CustomControls.MessageBox();
+                var msgDiag = messageBox.ShowDialog(LanguageManager.Strings.MacroDeckNeedsARestart, LanguageManager.Strings.MacroDeckMustBeRestartedForTheChanges, MessageBoxButtons.YesNo);
+                if (msgDiag == DialogResult.Yes)
+                {
+                    PluginConfigHelper.UpdatePath(folderpath);
+                    MacroDeck.RestartMacroDeck();
+                }
+                else
+                {
+                    this.Close();
+                }
+            }
+            else if (String.IsNullOrEmpty(folderpath))
+            {
+                using var messageBox = new SuchByte.MacroDeck.GUI.CustomControls.MessageBox();
+                messageBox.ShowDialog(PluginLanguageManager.PluginStrings.ActionRequired, PluginLanguageManager.PluginStrings.ActionRequiredDesc, MessageBoxButtons.OK);
+                label5.Visible = true;
+                label3.Visible = false;
             }
             else
             {
                 using var messageBox = new SuchByte.MacroDeck.GUI.CustomControls.MessageBox();
                 messageBox.ShowDialog(PluginLanguageManager.PluginStrings.CantFindEXE, PluginLanguageManager.PluginStrings.CantFindEXE1, MessageBoxButtons.OK);
                 label3.Visible = true;
+                label5.Visible = false;
                 //btnOK.Enabled = false;
             }
         }
@@ -69,11 +76,18 @@ namespace jbcarreon123.ShareXPlugin.GUI
             if (File.Exists(fpath + "\\ShareX.exe"))
             {
                 label3.Visible = false;
+                label5.Visible = false;
                 var folderpath = textBox1.Text;
                 btnOK.Enabled = true;
             }
+            else if (String.IsNullOrEmpty(fpath))
+            {
+                label5.Visible = true;
+                label3.Visible = false;
+            }
             else
             {
+                label5.Visible = false;
                 label3.Visible = true;
                 //btnOK.Enabled = false;
             }
@@ -87,35 +101,12 @@ namespace jbcarreon123.ShareXPlugin.GUI
         {
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            foreach (TabPage tab in label4.Controls)
-            {
-                foreach (Label lbl in tab.Controls.OfType<Label>())
-                {
-                    lbl.MouseEnter += lbl_MouseEnter;
-                    lbl.MouseLeave += lbl_MouseLeave;
-                }
-            }
-        }
-
-        void lbl_MouseLeave(object sender, EventArgs e)
-        {
-            label4.ForeColor = System.Drawing.ColorTranslator.FromHtml("#CDCDCD");
-        }
-
-        void lbl_MouseEnter(object sender, EventArgs e)
-        {
-            label4.ForeColor = System.Drawing.ColorTranslator.FromHtml("#FFFFFF");
-        }
-
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }
