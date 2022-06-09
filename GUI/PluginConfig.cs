@@ -6,6 +6,7 @@ using System.IO;
 using SuchByte.MacroDeck.Plugins;
 using jbcarreon123.ShareXPlugin.Languages;
 using SuchByte.MacroDeck.Language;
+using SuchByte.MacroDeck.Logging;
 using SuchByte.MacroDeck.GUI.CustomControls;
 using System.Runtime.InteropServices;
 
@@ -45,8 +46,17 @@ namespace jbcarreon123.ShareXPlugin.GUI
                 var msgDiag = messageBox.ShowDialog(LanguageManager.Strings.MacroDeckNeedsARestart, LanguageManager.Strings.MacroDeckMustBeRestartedForTheChanges, MessageBoxButtons.YesNo);
                 if (msgDiag == DialogResult.Yes)
                 {
-                    PluginConfigHelper.UpdatePath(folderpath);
-                    MacroDeck.RestartMacroDeck();
+                    if (folderpath.EndsWith("\\"))
+                    {
+                        PluginConfigHelper.UpdatePath(folderpath);
+                        MacroDeck.RestartMacroDeck();
+                    }
+                    else
+                    {
+                        folderpath = folderpath + "\\";
+                        PluginConfigHelper.UpdatePath(folderpath);
+                        MacroDeck.RestartMacroDeck();
+                    }
                 }
                 else
                 {

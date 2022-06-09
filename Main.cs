@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using SuchByte.MacroDeck;
 using System.Collections.Generic;
 using SuchByte.MacroDeck.Plugins;
 using jbcarreon123.ShareXPlugin.GUI;
@@ -32,6 +33,15 @@ namespace jbcarreon123.ShareXPlugin
 
         private void MacroDeck_OnMainWindowLoad(object sender, EventArgs e)
         {
+            int apiver = MacroDeck.PluginApiVersion;
+            if (apiver >= 22)
+            {
+                MacroDeckLogger.Trace(PluginInstance.Main, $"Plugin API: {apiver}");
+            } 
+            else
+            {
+                MacroDeckLogger.Warning(PluginInstance.Main, $"Plugin API version {apiver} is not recognized. You may expierence issues.");
+            }
             string pathf = PluginConfigHelper.GetPath();
             if (!File.Exists(pathf + "\\ShareX.exe"))
             {
