@@ -13,10 +13,10 @@ You can screenshot your whole screen, screenshot a area, record your whole scree
 You can use ShareX Plugin and [Windows Utils](https://github.com/SuchByte/Macro-Deck-Windows-Utils-Plugin) Hotkey action to automate screenshotting your 2nd screen, for example.   
 To automate most of this plugin:
 - Install [AutoHotkey](https://www.autohotkey.com/)
-- Create a AHK file
+- Install [AutoHotkey Plugin](https://github.com/jbcarreon123/MacroDeck2-AHKPlugin)
 - Go to Macro Deck, create a action:
   - for ShareX Plugin
-  - for Windows Utils > Run file > point to the AHK file
+  - for AHK Plugin > Write and Run script > Write your script
 - Now, test it!
 
 ## Language
