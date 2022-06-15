@@ -10,7 +10,7 @@ This plugin works only on Macro Deck 2. This plugin is NOT a standalone program.
 You can screenshot your whole screen, screenshot a area, record your whole screen, record a current window, and more!
 
 ## The perfect configuration for automated screenshot in Macro Deck
-You can use ShareX Plugin and [Windows Utils](https://github.com/SuchByte/Macro-Deck-Windows-Utils-Plugin) Hotkey action to automate screenshotting your 2nd screen, for example.   
+You can use ShareX Plugin and [AHK Plugins](https://github.com/jbcarreon123/MacroDeck2-AHKPlugin) Write and Run script action to automate screenshotting your 2nd screen, for example.   
 To automate most of this plugin:
 - Install [AutoHotkey](https://www.autohotkey.com/)
 - Install [AutoHotkey Plugin](https://github.com/jbcarreon123/MacroDeck2-AHKPlugin)
