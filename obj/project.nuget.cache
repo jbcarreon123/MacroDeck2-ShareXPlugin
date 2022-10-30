@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ij36EcNRLTScaFlfbW6t2Tb8ag7wcZ3eI29Yo3Onr87Nuoamz9RCqcXV6g+lj+o6t8oiJg+zA8+QW2cPzYpzgA==",
+  "success": true,
+  "projectFilePath": "d:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jbcarreon123\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\jbcarreon123\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\jbcarreon123\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
