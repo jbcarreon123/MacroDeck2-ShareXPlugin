@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "D:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj",
         "packagesPath": "C:\\Users\\jbcarreon123\\.nuget\\packages\\",
         "outputPath": "D:\\git\\MacroDeck2-ShareXPlugin\\obj\\",
+=======
+    "d:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj": {}
+  },
+  "projects": {
+    "d:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj": {
+      "version": "1.1.1",
+      "restore": {
+        "projectUniqueName": "d:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj",
+        "projectName": "ShareX Plugin",
+        "projectPath": "d:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj",
+        "packagesPath": "C:\\Users\\jbcarreon123\\.nuget\\packages\\",
+        "outputPath": "d:\\git\\MacroDeck2-ShareXPlugin\\obj\\",
+>>>>>>> 3af82bcd276fdbff3e4991c0a70976bad69272b1
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -20,14 +34,23 @@
           "C:\\Users\\jbcarreon123\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
+<<<<<<< HEAD
           "netcoreapp3.1"
+=======
+          "net6.0-windows"
+>>>>>>> 3af82bcd276fdbff3e4991c0a70976bad69272b1
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
+<<<<<<< HEAD
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
+=======
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+>>>>>>> 3af82bcd276fdbff3e4991c0a70976bad69272b1
             "projectReferences": {}
           }
         },
@@ -38,8 +61,13 @@
         }
       },
       "frameworks": {
+<<<<<<< HEAD
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+=======
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+>>>>>>> 3af82bcd276fdbff3e4991c0a70976bad69272b1
           "dependencies": {
             "System.Drawing.Common": {
               "target": "Package",
@@ -57,6 +85,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+<<<<<<< HEAD
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
@@ -71,6 +100,8 @@
               "version": "[3.1.0, 3.1.0]"
             }
           ],
+=======
+>>>>>>> 3af82bcd276fdbff3e4991c0a70976bad69272b1
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

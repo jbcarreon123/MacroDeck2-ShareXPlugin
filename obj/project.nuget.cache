@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "1iwkPD2uE4gJ8lwOEW08h++NaBb4q7mk72qqdGmSRTcniy3dqj+pEgr1QZEkycjQX5cg6AwlQxHozVEkq3u0kQ==",
   "success": true,
   "projectFilePath": "D:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj",
@@ -10,6 +11,15 @@
     "C:\\Users\\jbcarreon123\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\jbcarreon123\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\jbcarreon123\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+=======
+  "dgSpecHash": "Ij36EcNRLTScaFlfbW6t2Tb8ag7wcZ3eI29Yo3Onr87Nuoamz9RCqcXV6g+lj+o6t8oiJg+zA8+QW2cPzYpzgA==",
+  "success": true,
+  "projectFilePath": "d:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jbcarreon123\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\jbcarreon123\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\jbcarreon123\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512"
+>>>>>>> 3af82bcd276fdbff3e4991c0a70976bad69272b1
   ],
   "logs": []
 }
