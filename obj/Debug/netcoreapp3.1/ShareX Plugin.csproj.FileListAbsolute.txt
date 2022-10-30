@@ -1,0 +1,14 @@
+D:\git\MacroDeck2-ShareXPlugin\bin\Debug\netcoreapp3.1\ShareX Plugin.deps.json
+D:\git\MacroDeck2-ShareXPlugin\bin\Debug\netcoreapp3.1\ShareX Plugin.dll
+D:\git\MacroDeck2-ShareXPlugin\bin\Debug\netcoreapp3.1\ShareX Plugin.pdb
+D:\git\MacroDeck2-ShareXPlugin\bin\Debug\netcoreapp3.1\Macro Deck 2.dll
+D:\git\MacroDeck2-ShareXPlugin\obj\Debug\netcoreapp3.1\ShareX Plugin.csproj.AssemblyReference.cache
+D:\git\MacroDeck2-ShareXPlugin\obj\Debug\netcoreapp3.1\jbcarreon123.ShareXPlugin.GUI.PluginConfig.resources
+D:\git\MacroDeck2-ShareXPlugin\obj\Debug\netcoreapp3.1\ShareX Plugin.csproj.GenerateResource.cache
+D:\git\MacroDeck2-ShareXPlugin\obj\Debug\netcoreapp3.1\ShareX Plugin.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\MacroDeck2-ShareXPlugin\obj\Debug\netcoreapp3.1\ShareX Plugin.AssemblyInfoInputs.cache
+D:\git\MacroDeck2-ShareXPlugin\obj\Debug\netcoreapp3.1\ShareX Plugin.AssemblyInfo.cs
+D:\git\MacroDeck2-ShareXPlugin\obj\Debug\netcoreapp3.1\ShareX Plugin.csproj.CoreCompileInputs.cache
+D:\git\MacroDeck2-ShareXPlugin\obj\Debug\netcoreapp3.1\ShareX Plugin.csproj.CopyComplete
+D:\git\MacroDeck2-ShareXPlugin\obj\Debug\netcoreapp3.1\ShareX Plugin.dll
+D:\git\MacroDeck2-ShareXPlugin\obj\Debug\netcoreapp3.1\ShareX Plugin.pdb
