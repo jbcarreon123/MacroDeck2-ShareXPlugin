@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "d:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj": {}
+  },
+  "projects": {
+    "d:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj": {
+      "version": "1.1.1",
+      "restore": {
+        "projectUniqueName": "d:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj",
+        "projectName": "ShareX Plugin",
+        "projectPath": "d:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj",
+        "packagesPath": "C:\\Users\\jbcarreon123\\.nuget\\packages\\",
+        "outputPath": "d:\\git\\MacroDeck2-ShareXPlugin\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jbcarreon123\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
