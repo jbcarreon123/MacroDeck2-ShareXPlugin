@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<PluginStrings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<__Language__>Russian</__Language__>
+	<__LanguageCode__>ru</__LanguageCode__>
+	<__Author__>Senk</__Author__>
+	
+	<AbortScreenRecordingAction>Запись Экрана- Отключить</AbortScreenRecordingAction>
+	<AbortScreenRecordingActionDescription>Отключить запись экрана</AbortScreenRecordingActionDescription>
+	<ActiveMonitorAction>Скриншот - Актив.Монитор</ActiveMonitorAction>
+	<ActiveMonitorActionDescription>Скриншотит Актив.Монитор</ActiveMonitorActionDescription>
+	<ActiveWindowAction>Скриншот - Актив.Окно</ActiveWindowAction>
+	<ActiveWindowActionDescription>Скриншотит Актив.Окно</ActiveWindowActionDescription>
+	<AutoCaptureAction>Скриншот - Авто Захват</AutoCaptureAction>
+	<AutoCaptureActionDescription>Автоматический Скриншот</AutoCaptureActionDescription>
+	<BorderlessWindowAction>Инструм. - Безрамочное окно</BorderlessWindowAction>
+	<BorderlessWindowActionDescription>Сделать окно без рамки</BorderlessWindowActionDescription>
+	<ClipboardUploadAction>Загрузить - Буфер Обмена</ClipboardUploadAction>
+	<ClipboardUploadActionDescription>Загрузить контент из Буфера</ClipboardUploadActionDescription>
+	<ClipboardUploadWithContentViewerAction>Загрузить - Буфер Обмена[Просмотрщик]</ClipboardUploadWithContentViewerAction>
+	<ClipboardUploadWithContentViewerActionDescription>Загрузить контент из Буфера и проверить на правильность</ClipboardUploadWithContentViewerActionDescription>
+	<ClipboardViewerAction>Инструменты - Просмотрщик буфера обмена</ClipboardViewerAction>
+	<ClipboardViewerActionDescription>Просмотр содержимого буфера обмена</ClipboardViewerActionDescription>
+	<ColorPickerAction>Инструменты - Выбор цвета</ColorPickerAction>
+	<ColorPickerActionDescription>Выбор цвета</ColorPickerActionDescription>
+	<CustomRegionAction>Скриншот - Пользовательский регион</CustomRegionAction>
+	<CustomRegionActionDescription>Снимок экрана пользовательского региона</CustomRegionActionDescription>
+	<DNSChangerAction>Инструменты - DNS Changer</DNSChangerAction>
+	<DNSChangerActionDescription>Изменение системы доменных имен [DNS]</DNSChangerActionDescription>
+	<DisableHotkeysAction>Прочее - Отключить горячие клавиши</DisableHotkeysAction>
+	<DisableHotkeysActionDescription>Отключение горячих клавиш ShareX</DisableHotkeysActionDescription>
+	<DragDropUploadAction>Загрузка - перетаскивание</DragDropUploadAction>
+	<DragDropUploadActionDescription>Загрузка с помощью перетаскивания</DragDropUploadActionDescription>
+	<ExitShareXAction>Прочее - Выход ShareX</ExitShareXAction>
+	<ExitShareXActionDescription>Выход из процесса ShareX</ExitShareXActionDescription>
+	<FileUploadAction>Загрузка - Файл</FileUploadAction>
+	<FileUploadActionDescription>Загрузить файл</FileUploadActionDescription>
+	<FolderUploadAction>Загрузка - Папка</FolderUploadAction>
+	<FolderUploadActionDescription>Загрузить папку</FolderUploadActionDescription>
+	<HashCheckAction>Инструменты - Проверка хэша</HashCheckAction>
+	<HashCheckActionDescription>Проверка хэша файла</HashCheckActionDescription>
+	<ImageCombinerAction>Инструменты - Комбинатор изображений</ImageCombinerAction>
+	<ImageCombinerActionDescription>Объединить изображение</ImageCombinerActionDescription>
+	<ImageEditorAction>Инструменты - Редактор изображений</ImageEditorAction>
+	<ImageEditorActionDescription>Редактирование изображения</ImageEditorActionDescription>
+	<ImageEffectsAction>Инструменты - Эффекты изображения</ImageEffectsAction>
+	<ImageEffectsActionDescription>Добавить эффект к изображению</ImageEffectsActionDescription>
+	<ImageSplitterAction>Инструменты - Разделитель изображений</ImageSplitterAction>
+	<ImageSplitterActionDescription>Разделить изображение</ImageSplitterActionDescription>
+	<ImageThumbnailerAction>Инструменты - Уменьшитель изображений</ImageThumbnailerAction>
+	<ImageThumbnailerActionDescription>Добавить миниатюру на изображение</ImageThumbnailerActionDescription>
+	<ImageViewerAction>Инструменты - Просмотрщик изображений</ImageViewerAction>
+	<ImageViewerActionDescription>Просмотр изображения</ImageViewerActionDescription>
+	<IndexFolderAction>Инструменты - Индексатор каталогов</IndexFolderAction>
+	<IndexFolderActionDescription>Индексировать каталог/папку</IndexFolderActionDescription>
+	<InspectWindowAction>Инструменты - Окно инспекции</InspectWindowAction>
+	<InspectWindowActionDescription>Осмотрите окно</InspectWindowActionDescription>
+	<LastRegionAction>Скриншот - Последний регион</LastRegionAction>
+	<LastRegionActionDescription>Снимок экрана последней указанной области</LastRegionActionDescription>
+	<MonitorTestAction>Инструменты - Тест монитора</MonitorTestAction>
+	<MonitorTestActionDescription>Тестирование монитора</MonitorTestActionDescription>
+	<OCRAction>Инструменты - OCR [Оптическое распознавание символов]</OCRAction>
+	<OCRActionDescription>Преобразование изображения в текст</OCRActionDescription>
+	<OpenHistoryAction>Прочее - Открытая история</OpenHistoryAction>
+	<OpenHistoryActionDescription>Открыть историю ShareX</OpenHistoryActionDescription>
+	<OpenImageHistoryAction>Другое - Открыть историю изображений</OpenImageHistoryAction>
+	<OpenImageHistoryActionDescription>Открыть историю изображений ShareX</OpenImageHistoryActionDescription>
+	<OpenMainWindowAction>Прочее - Открыть главное окно</OpenMainWindowAction>
+	<OpenMainWindowActionDescription>Открыть окно ShareX</OpenMainWindowActionDescription>
+	<OpenScreenshotsFolderAction>Другое - Открыть папку со скриншотами</OpenScreenshotsFolderAction>
+	<OpenScreenshotsFolderActionDescription>Открыть папку со скриншотами ShareX</OpenScreenshotsFolderActionDescription>
+	<PrintScreenAction>Снимок экрана - Все мониторы</PrintScreenAction>
+	<PrintScreenActionDescription>Снимок экрана всех мониторов [Print Screen].</PrintScreenActionDescription>
+	<QRCodeAction>Инструменты - Кодирование QR-кода</QRCodeAction>
+	<QRCodeActionDescription>Кодирование QR-кода</QRCodeActionDescription>
+	<QRCodeDecodeFromScreenAction>Инструменты - Декодирование QR-кода</QRCodeDecodeFromScreenAction>
+	<QRCodeDecodeFromScreenActionDescription>Декодирование QR-кода</QRCodeDecodeFromScreenActionDescription>
+	<RectangleLightAction>Скриншот - Прямоугольная область [Свет]</RectangleLightAction>
+	<RectangleLightActionDescription>Скриншот региона [Свет]</RectangleLightActionDescription>
+	<RectangleRegionAction>Скриншот - Прямоугольная область</RectangleRegionAction>
+	<RectangleRegionActionDescription>Скриншот региона</RectangleRegionActionDescription>
+	<RectangleTransparentAction>Скриншот - Область прямоугольника [Прозрачный]</RectangleTransparentAction>
+	<RectangleTransparentActionDescription>Скриншот региона</RectangleTransparentActionDescription>
+	<RulerAction>Инструменты - линейка</RulerAction>
+	<RulerActionDescription>Линейка</RulerActionDescription>
+	<ScreenColorPickerAction>Инструменты - Выбор цвета экрана</ScreenColorPickerAction>
+	<ScreenColorPickerActionDescription>Выберите цвет с экрана</ScreenColorPickerActionDescription>
+	<ScreenRecorderAction>Запись экрана - весь монитор</ScreenRecorderAction>
+	<ScreenRecorderActionDescription>Снимок экрана всех мониторов</ScreenRecorderActionDescription>
+	<ScreenRecorderActiveWindowAction>Запись экрана - активное окно</ScreenRecorderActiveWindowAction>
+	<ScreenRecorderActiveWindowActionDescription>Запись экрана активного окна</ScreenRecorderActiveWindowActionDescription>
+	<ScreenRecorderCustomRegionAction>Запись экрана - пользовательский регион</ScreenRecorderCustomRegionAction>
+	<ScreenRecorderCustomRegionActionDescription>Экранная запись пользовательского региона</ScreenRecorderCustomRegionActionDescription>
+	<ScreenRecorderGIFAction>Запись экрана - весь монитор [GIF]</ScreenRecorderGIFAction>
+	<ScreenRecorderGIFActionDescription>Снимок экрана всех мониторов [GIF]</ScreenRecorderGIFActionDescription>
+	<ScreenRecorderGIFActiveWindowAction>Запись экрана - активное окно [GIF]</ScreenRecorderGIFActiveWindowAction>
+	<ScreenRecorderGIFActiveWindowActionDescription>Запись экрана активного окна [GIF]</ScreenRecorderGIFActiveWindowActionDescription>
+	<ScreenRecorderGIFCustomRegionAction>Запись экрана - Пользовательский регион [GIF]</ScreenRecorderGIFCustomRegionAction>
+	<ScreenRecorderGIFCustomRegionActionDescription>Запись экрана пользовательской области [GIF]</ScreenRecorderGIFCustomRegionActionDescription>
+	<ScrollingCaptureAction>Снимок экрана - Прокрутка</ScrollingCaptureAction>
+	<ScrollingCaptureActionDescription>Прокрутка захвата</ScrollingCaptureActionDescription>
+	<ShortenURLAction>Загрузка - Сократитель URL</ShortenURLAction>
+	<ShortenURLActionDescription>Сокращение URL-адреса</ShortenURLActionDescription>
+	<StartAutoCaptureAction>Снимок экрана - Начать автоматический захват</StartAutoCaptureAction>
+	<StartAutoCaptureActionDescription>Запуск указанной конфигурации автоматического захвата</StartAutoCaptureActionDescription>
+	<StartScreenRecorderAction>Запись экрана - Начало</StartScreenRecorderAction>
+	<StartScreenRecorderActionDescription>Начните запись экрана</StartScreenRecorderActionDescription>
+	<StartScreenRecorderGIFAction>Запись экрана - Начало [GIF]</StartScreenRecorderGIFAction>
+	<StartScreenRecorderGIFActionDescription>Запуск записи экрана [GIF]</StartScreenRecorderGIFActionDescription>
+	<StopScreenRecordingAction>Запись экрана - Остановить</StopScreenRecordingAction>
+	<StopScreenRecordingActionDescription>Остановить запись экрана</StopScreenRecordingActionDescription>
+	<StopUploadsAction>Загрузить - Остановить</StopUploadsAction>
+	<StopUploadsActionDescription>Остановить загрузку</StopUploadsActionDescription>
+	<ToggleActionsToolbarAction>Другое - Панель инструментов "Переключение действий</ToggleActionsToolbarAction>
+	<ToggleActionsToolbarActionDescription>Переключение панели инструментов действий</ToggleActionsToolbarActionDescription>
+	<ToggleTrayMenuAction>Другое - Переключение меню лотка</ToggleTrayMenuAction>
+	<ToggleTrayMenuActionDescription>Переключение меню лотка</ToggleTrayMenuActionDescription>
+	<TweetMessageAction>Загрузка - Сообщение в Твиттере</TweetMessageAction>
+	<TweetMessageActionDescription>Написать сообщение</TweetMessageActionDescription>
+	<UploadTextAction>Загрузка - Текст</UploadTextAction>
+	<UploadTextActionDescription>Загрузить текст</UploadTextActionDescription>
+	<UploadURLAction>Загрузка - URL</UploadURLAction>
+	<UploadURLActionDescription>Загрузить URL-адрес</UploadURLActionDescription>
+	<VideoConverterAction>Инструменты - Видеоконвертер</VideoConverterAction>
+	<VideoConverterActionDescription>Конвертировать видео</VideoConverterActionDescription>
+	<ShareXPath>Каталог установки ShareX</ShareXPath>
+	<Cancel>Отмена</Cancel>
+	<CantFindEXE>Не удается найти ShareX.exe</CantFindEXE>
+	<CantFindEXE1>
+		Не удается найти файл ShareX.exe. Возможно, путь является родительским для
+		ShareX или буква диска Portable изменена.
+	</CantFindEXE1>
+	<ShareXPathExpl>
+		Почему он требует путь установки ShareX?
+
+		Потому что у ShareX нет управляющего
+		API, который я мог бы использовать.
+		Если я найду API управления ShareX, который будет
+		совместимый с .NET и Macro Deck,
+		я обновлю этот плагин, чтобы использовать его.
+	</ShareXPathExpl>
+	<VideoThumbnailerAction>Инструменты - Уменьшитель видео</VideoThumbnailerAction>
+	<VideoThumbnailerActionDescription>Эскиз видео</VideoThumbnailerActionDescription>
+
+</PluginStrings>

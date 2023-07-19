@@ -3,6 +3,7 @@
  */
 
 using SuchByte.MacroDeck.Language;
+using SuchByte.MacroDeck.Logging;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -17,31 +18,37 @@ namespace jbcarreon123.ShareXPlugin.Languages
     {
         public static PluginStrings PluginStrings = new PluginStrings();
 
-
-
-
         public static void Initialize()
         {
             LoadLanguage();
-            LanguageManager.LanguageChanged += (s, e) => LoadLanguage();
         }
+
+        public static List<string> Languages = new List<string>()
+        {
+            "English", "Filipino", "German", "Russian"
+        };
 
         private static void LoadLanguage()
         {
             // Getting the current language that is set in Macro Deck
-            string languageName = LanguageManager.GetLanguageName();
+            var languageName = PluginConfigHelper.GetLang();
+            MacroDeckLogger.Info(PluginInstance.Main, $"Loading language {languageName}...");
 
             try
             {
                 using (TextReader reader = new StringReader(GetXMLLanguageResource(languageName)))
                 {
                     PluginStrings = (PluginStrings)new XmlSerializer(typeof(PluginStrings)).Deserialize(reader);
+
+                    MacroDeckLogger.Info(PluginInstance.Main, $"Successfully loaded language!");
                 }
             }
-            catch
+            catch (Exception e)
             {
                 //fallback - should never occur if things are done properly
                 PluginStrings = new PluginStrings();
+
+                MacroDeckLogger.Info(PluginInstance.Main, $"Cannot load language. {e}");
             }
         }
 
@@ -49,8 +56,7 @@ namespace jbcarreon123.ShareXPlugin.Languages
         private static string GetXMLLanguageResource(string languageName)
         {
             var assembly = typeof(PluginStrings).Assembly;
-            if (string.IsNullOrEmpty(languageName)
-                || !assembly.GetManifestResourceNames().Any(name => name.EndsWith($"{languageName}.xml")))
+            if (string.IsNullOrEmpty(languageName))
             {
                 languageName = "English"; //This should always be present as default, otherwise the code goes to fallback implementation.
             }

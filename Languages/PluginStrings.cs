@@ -73,6 +73,8 @@ namespace jbcarreon123.ShareXPlugin.Languages
         public string OpenMainWindowActionDescription = "Open ShareX Window";
         public string OpenScreenshotsFolderAction = "Other - Open Screenshots Folder";
         public string OpenScreenshotsFolderActionDescription = "Open ShareX Screenshots Folder";
+        public string PauseScreenRecordingAction = "Screen Recording - Pause";
+        public string PauseScreenRecordingActionDescription = "Pause a screen recording";
         public string PrintScreenAction = "Screenshot - All monitors";
         public string PrintScreenActionDescription = "Screenshot all the monitors [Print Screen]";
         public string QRCodeAction = "Tools - Encode QR Code";

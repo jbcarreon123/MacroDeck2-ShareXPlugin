@@ -1,0 +1,143 @@
+﻿<?xml version="1.0"?>
+<PluginStrings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<__Language__>German</__Language__>
+	<__LanguageCode__>de</__LanguageCode__>
+	<__Author__>jbcarreon123</__Author__>
+	
+	<AbortScreenRecordingAction>Bildschirmaufzeichnung - Abbruch</AbortScreenRecordingAction>
+	<AbortScreenRecordingActionDescription>Abbruch einer Bildschirmaufnahme</AbortScreenRecordingActionDescription>
+	<ActiveMonitorAction>Bildschirmfoto - Active Monitor</ActiveMonitorAction>
+	<ActiveMonitorActionDescription>Screenshot des aktiven Monitors</ActiveMonitorActionDescription>
+	<ActiveWindowAction>Screenshot - Aktives Fenster</ActiveWindowAction>
+	<ActiveWindowActionDescription>Screenshot des aktiven Fensters</ActiveWindowActionDescription>
+	<AutoCaptureAction>Screenshot - Automatische Aufnahme</AutoCaptureAction>
+	<AutoCaptureActionDescription>Bildschirmfoto automatisch</AutoCaptureActionDescription>
+	<BorderlessWindowAction>Werkzeuge - Randloses Fenster</BorderlessWindowAction>
+	<BorderlessWindowActionDescription>Fenster randlos machen</BorderlessWindowActionDescription>
+	<ClipboardUploadAction>Hochladen - Zwischenablage</ClipboardUploadAction>
+	<ClipboardUploadActionDescription>Inhalt der aktuellen Zwischenablage hochladen</ClipboardUploadActionDescription>
+	<ClipboardUploadWithContentViewerAction>Hochladen - Zwischenablage [mit Content Viewer]</ClipboardUploadWithContentViewerAction>
+	<ClipboardUploadWithContentViewerActionDescription>Inhalt der aktuellen Zwischenablage hochladen und prüfen, ob er korrekt ist</ClipboardUploadWithContentViewerActionDescription>
+	<ClipboardViewerAction>Werkzeuge - Zwischenablage-Betrachter</ClipboardViewerAction>
+	<ClipboardViewerActionDescription>Inhalt der Zwischenablage anzeigen</ClipboardViewerActionDescription>
+	<ColorPickerAction>Werkzeuge - Farbwähler</ColorPickerAction>
+	<ColorPickerActionDescription>Farbwähler</ColorPickerActionDescription>
+	<CustomRegionAction>Screenshot - Benutzerdefinierte Region</CustomRegionAction>
+	<CustomRegionActionDescription>Screenshot einer benutzerdefinierten Region</CustomRegionActionDescription>
+	<DNSChangerAction>Werkzeuge - DNS-Wechsler</DNSChangerAction>
+	<DNSChangerActionDescription>Ändern Sie Ihr Domain Name System [DNS]</DNSChangerActionDescription>
+	<DisableHotkeysAction>Sonstiges - Hotkeys deaktivieren</DisableHotkeysAction>
+	<DisableHotkeysActionDescription>ShareX Hotkeys deaktivieren</DisableHotkeysActionDescription>
+	<DragDropUploadAction>Hochladen - Ziehen und Ablegen</DragDropUploadAction>
+	<DragDropUploadActionDescription>Hochladen per Drag and Drop</DragDropUploadActionDescription>
+	<ExitShareXAction>Sonstiges - ShareX verlassen</ExitShareXAction>
+	<ExitShareXActionDescription>ShareX-Prozess beenden</ExitShareXActionDescription>
+	<FileUploadAction>Hochladen - Datei</FileUploadAction>
+	<FileUploadActionDescription>Eine Datei hochladen</FileUploadActionDescription>
+	<FolderUploadAction>Hochladen - Ordner</FolderUploadAction>
+	<FolderUploadActionDescription>Einen Ordner hochladen</FolderUploadActionDescription>
+	<HashCheckAction>Werkzeuge - Hash Check</HashCheckAction>
+	<HashCheckActionDescription>Hash der Datei prüfen</HashCheckActionDescription>
+	<ImageCombinerAction>Werkzeuge - Bildkombinierer</ImageCombinerAction>
+	<ImageCombinerActionDescription>Kombinieren Sie ein Bild</ImageCombinerActionDescription>
+	<ImageEditorAction>Tools - Bild-Editor</ImageEditorAction>
+	<ImageEditorActionDescription>Ein Bild bearbeiten</ImageEditorActionDescription>
+	<ImageEffectsAction>Werkzeuge - Bildeffekte</ImageEffectsAction>
+	<ImageEffectsActionDescription>Hinzufügen eines Effekts zu einem Bild</ImageEffectsActionDescription>
+	<ImageSplitterAction>Werkzeuge - Bildsplitter</ImageSplitterAction>
+	<ImageSplitterActionDescription>Ein Bild teilen</ImageSplitterActionDescription>
+	<ImageThumbnailerAction>Werkzeuge - Image Thumbnailer</ImageThumbnailerAction>
+	<ImageThumbnailerActionDescription>Hinzufügen einer Miniaturansicht zu einem Bild</ImageThumbnailerActionDescription>
+	<ImageViewerAction>Werkzeuge - Bildbetrachter</ImageViewerAction>
+	<ImageViewerActionDescription>Ein Bild anzeigen</ImageViewerActionDescription>
+	<IndexFolderAction>Tools - Verzeichnis-Indexer</IndexFolderAction>
+	<IndexFolderActionDescription>Indizieren eines Verzeichnisses/Ordners</IndexFolderActionDescription>
+	<InspectWindowAction>Werkzeuge - Inspektionsfenster</InspectWindowAction>
+	<InspectWindowActionDescription>Ein Fenster inspizieren</InspectWindowActionDescription>
+	<LastRegionAction>Bildschirmfoto - Letzte Region</LastRegionAction>
+	<LastRegionActionDescription>Screenshot des zuletzt angegebenen Bereichs</LastRegionActionDescription>
+	<MonitorTestAction>Werkzeuge - Monitor Test</MonitorTestAction>
+	<MonitorTestActionDescription>Test eines Monitors</MonitorTestActionDescription>
+	<OCRAction>Werkzeuge - OCR [Optical Character Recognition]</OCRAction>
+	<OCRActionDescription>Ein Bild in Text umwandeln</OCRActionDescription>
+	<OpenHistoryAction>Sonstiges - Offene Geschichte</OpenHistoryAction>
+	<OpenHistoryActionDescription>ShareX-Geschichte öffnen</OpenHistoryActionDescription>
+	<OpenImageHistoryAction>Sonstiges - Bildverlauf öffnen</OpenImageHistoryAction>
+	<OpenImageHistoryActionDescription>ShareX Image History öffnen</OpenImageHistoryActionDescription>
+	<OpenMainWindowAction>Sonstiges - Hauptfenster öffnen</OpenMainWindowAction>
+	<OpenMainWindowActionDescription>ShareX-Fenster öffnen</OpenMainWindowActionDescription>
+	<OpenScreenshotsFolderAction>Sonstiges - Ordner für Screenshots öffnen</OpenScreenshotsFolderAction>
+	<OpenScreenshotsFolderActionDescription>ShareX-Ordner für Screenshots öffnen</OpenScreenshotsFolderActionDescription>
+	<PrintScreenAction>Screenshot - Alle Monitore</PrintScreenAction>
+	<PrintScreenActionDescription>Screenshot aller Monitore [Bildschirm drucken]</PrintScreenActionDescription>
+	<QRCodeAction>Werkzeuge - QR-Code kodieren</QRCodeAction>
+	<QRCodeActionDescription>Einen QR-Code kodieren</QRCodeActionDescription>
+	<QRCodeDecodeFromScreenAction>Werkzeuge - QR-Code dekodieren</QRCodeDecodeFromScreenAction>
+	<QRCodeDecodeFromScreenActionDescription>QR-Code dekodieren</QRCodeDecodeFromScreenActionDescription>
+	<RectangleLightAction>Screenshot - Rechteckige Region [Licht]</RectangleLightAction>
+	<RectangleLightActionDescription>Screenshot einer Region [Licht]</RectangleLightActionDescription>
+	<RectangleRegionAction>Screenshot - Rechteckige Region</RectangleRegionAction>
+	<RectangleRegionActionDescription>Screenshot einer Region</RectangleRegionActionDescription>
+	<RectangleTransparentAction>Screenshot - Rechteckiger Bereich [Transparent]</RectangleTransparentAction>
+	<RectangleTransparentActionDescription>Screenshot einer Region</RectangleTransparentActionDescription>
+	<RulerAction>Werkzeuge - Lineal</RulerAction>
+	<RulerActionDescription>Lineal</RulerActionDescription>
+	<ScreenColorPickerAction>Werkzeuge - Bildschirm-Farbwähler</ScreenColorPickerAction>
+	<ScreenColorPickerActionDescription>Wählen Sie eine Farbe vom Bildschirm</ScreenColorPickerActionDescription>
+	<ScreenRecorderAction>Bildschirmaufzeichnung - All Monitor</ScreenRecorderAction>
+	<ScreenRecorderActionDescription>Screenshot aller Monitore</ScreenRecorderActionDescription>
+	<ScreenRecorderActiveWindowAction>Bildschirmaufzeichnung - Aktives Fenster</ScreenRecorderActiveWindowAction>
+	<ScreenRecorderActiveWindowActionDescription>Bildschirmaufnahme des aktiven Fensters</ScreenRecorderActiveWindowActionDescription>
+	<ScreenRecorderCustomRegionAction>Bildschirmaufzeichnung - Benutzerdefinierte Region</ScreenRecorderCustomRegionAction>
+	<ScreenRecorderCustomRegionActionDescription>Bildschirmaufzeichnung einer benutzerdefinierten Region</ScreenRecorderCustomRegionActionDescription>
+	<ScreenRecorderGIFAction>Bildschirmaufzeichnung - Alle Monitore [GIF]</ScreenRecorderGIFAction>
+	<ScreenRecorderGIFActionDescription>Screenshot aller Monitore [GIF]</ScreenRecorderGIFActionDescription>
+	<ScreenRecorderGIFActiveWindowAction>Bildschirmaufnahme - Aktives Fenster [GIF]</ScreenRecorderGIFActiveWindowAction>
+	<ScreenRecorderGIFActiveWindowActionDescription>Bildschirmaufnahme des aktiven Fensters [GIF]</ScreenRecorderGIFActiveWindowActionDescription>
+	<ScreenRecorderGIFCustomRegionAction>Bildschirmaufzeichnung - Benutzerdefinierte Region [GIF]</ScreenRecorderGIFCustomRegionAction>
+	<ScreenRecorderGIFCustomRegionActionDescription>Bildschirmaufzeichnung einer benutzerdefinierten Region [GIF]</ScreenRecorderGIFCustomRegionActionDescription>
+	<ScrollingCaptureAction>Bildschirmfoto - Blättern</ScrollingCaptureAction>
+	<ScrollingCaptureActionDescription>Scrollende Erfassung</ScrollingCaptureActionDescription>
+	<ShortenURLAction>Hochladen - URL-Verkürzer</ShortenURLAction>
+	<ShortenURLActionDescription>Kürzen einer URL</ShortenURLActionDescription>
+	<StartAutoCaptureAction>Screenshot - Auto-Capture starten</StartAutoCaptureAction>
+	<StartAutoCaptureActionDescription>Starten Sie die angegebene Auto-Capture-Konfiguration</StartAutoCaptureActionDescription>
+	<StartScreenRecorderAction>Bildschirmaufzeichnung - Start</StartScreenRecorderAction>
+	<StartScreenRecorderActionDescription>Starten Sie die Bildschirmaufzeichnung</StartScreenRecorderActionDescription>
+	<StartScreenRecorderGIFAction>Bildschirmaufnahme - Start [GIF]</StartScreenRecorderGIFAction>
+	<StartScreenRecorderGIFActionDescription>Starten Sie die Bildschirmaufnahme [GIF]</StartScreenRecorderGIFActionDescription>
+	<StopScreenRecordingAction>Bildschirmaufzeichnung - Stopp</StopScreenRecordingAction>
+	<StopScreenRecordingActionDescription>Beenden der Bildschirmaufzeichnung</StopScreenRecordingActionDescription>
+	<StopUploadsAction>Hochladen - Stopp</StopUploadsAction>
+	<StopUploadsActionDescription>Uploads stoppen</StopUploadsActionDescription>
+	<ToggleActionsToolbarAction>Sonstiges - Symbolleiste Aktionen umschalten</ToggleActionsToolbarAction>
+	<ToggleActionsToolbarActionDescription>Umschalten der Aktionssymbolleiste</ToggleActionsToolbarActionDescription>
+	<ToggleTrayMenuAction>Sonstiges - Tablettmenü umschalten</ToggleTrayMenuAction>
+	<ToggleTrayMenuActionDescription>Umschalten des Tray-Menüs</ToggleTrayMenuActionDescription>
+	<TweetMessageAction>Hochladen - Tweet-Nachricht</TweetMessageAction>
+	<TweetMessageActionDescription>Eine Nachricht twittern</TweetMessageActionDescription>
+	<UploadTextAction>Hochladen - Text</UploadTextAction>
+	<UploadTextActionDescription>Hochladen eines Textes</UploadTextActionDescription>
+	<UploadURLAction>Hochladen - URL</UploadURLAction>
+	<UploadURLActionDescription>Hochladen einer URL</UploadURLActionDescription>
+	<VideoConverterAction>Werkzeuge - Video-Konverter</VideoConverterAction>
+	<VideoConverterActionDescription>Ein Video konvertieren</VideoConverterActionDescription>
+	<ShareXPath>ShareX-Installationsverzeichnis</ShareXPath>
+	<Cancel>Abbrechen</Cancel>
+	<CantFindEXE>ShareX.exe kann nicht gefunden werden</CantFindEXE>
+	<CantFindEXE1>
+		ShareX.exe kann nicht gefunden werden. Vielleicht ist der Pfad das Parent von
+		ShareX oder der Buchstabe des portablen Laufwerks ist geändert.
+	</CantFindEXE1>
+	<ShareXPathExpl>
+		Warum braucht es den Installationspfad von ShareX?
+
+		Weil ShareX nicht über eine Steuerungs
+		API hat, die ich verwenden kann.
+		Wenn ich eine ShareX-Steuerungs-API finde, die
+		NET kompatibel ist, und Macro Deck,
+		werde ich dieses Plugin aktualisieren, um es zu verwenden.
+	</ShareXPathExpl>
+	<VideoThumbnailerAction>Werkzeuge - Video-Daumennagelprogramm</VideoThumbnailerAction>
+	<VideoThumbnailerActionDescription>Thumbnail eines Videos</VideoThumbnailerActionDescription>
+</PluginStrings>

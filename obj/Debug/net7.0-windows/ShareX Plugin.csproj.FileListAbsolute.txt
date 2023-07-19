@@ -1,0 +1,49 @@
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\obj\Debug\net7.0-windows\ShareX Plugin.csproj.AssemblyReference.cache
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\obj\Debug\net7.0-windows\jbcarreon123.ShareXPlugin.GUI.PluginConfig.resources
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\obj\Debug\net7.0-windows\ShareX Plugin.csproj.GenerateResource.cache
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\obj\Debug\net7.0-windows\ShareX Plugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\obj\Debug\net7.0-windows\ShareX Plugin.AssemblyInfoInputs.cache
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\obj\Debug\net7.0-windows\ShareX Plugin.AssemblyInfo.cs
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\obj\Debug\net7.0-windows\ShareX Plugin.csproj.CoreCompileInputs.cache
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\ShareX Plugin.deps.json
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\ShareX Plugin.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\ShareX Plugin.pdb
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\Macro Deck 2.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\PresentationFramework.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\CommandLine.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\SharpAdbClient.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\Fleck.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\SQLite-net.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\Microsoft.Windows.SDK.NET.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\Magick.NET-Q16-x64.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\Magick.NET.Core.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\GiphyDotNet.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\FastColoredTextBox.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\CefSharp.WinForms.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\CefSharp.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\Cottle.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\CefSharp.Core.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\System.Xaml.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\PresentationCore.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\UIAutomationProvider.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\UIAutomationTypes.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\ReachFramework.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\System.Printing.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\PresentationUI.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\SQLitePCLRaw.core.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\WinRT.Runtime.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\CefSharp.Core.Runtime.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\DirectWriteForwarder.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\System.Windows.Input.Manipulations.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\SQLitePCLRaw.nativelibrary.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\bin\Debug\net7.0-windows\Macro Deck 2.pdb
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\obj\Debug\net7.0-windows\ShareX Plugin.csproj.CopyComplete
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\obj\Debug\net7.0-windows\ShareX Plugin.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\obj\Debug\net7.0-windows\refint\ShareX Plugin.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\obj\Debug\net7.0-windows\ShareX Plugin.pdb
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\obj\Debug\net7.0-windows\ref\ShareX Plugin.dll
+C:\Users\jbcarreon123\RiderProjects\MacroDeck2-ShareXPlugin\obj\Debug\net7.0-windows\jbcarreon123.ShareXPlugin.Properties.Resources.resources

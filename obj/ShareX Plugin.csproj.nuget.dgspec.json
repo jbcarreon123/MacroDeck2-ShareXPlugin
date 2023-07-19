@@ -1,56 +1,32 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "D:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj": {}
+    "C:\\Users\\jbcarreon123\\RiderProjects\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj": {}
   },
   "projects": {
-    "D:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj": {
-      "version": "1.1.1",
+    "C:\\Users\\jbcarreon123\\RiderProjects\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj": {
+      "version": "2.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj",
+        "projectUniqueName": "C:\\Users\\jbcarreon123\\RiderProjects\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj",
         "projectName": "ShareX Plugin",
-        "projectPath": "D:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj",
+        "projectPath": "C:\\Users\\jbcarreon123\\RiderProjects\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj",
         "packagesPath": "C:\\Users\\jbcarreon123\\.nuget\\packages\\",
-        "outputPath": "D:\\git\\MacroDeck2-ShareXPlugin\\obj\\",
-=======
-    "d:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj": {}
-  },
-  "projects": {
-    "d:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj": {
-      "version": "1.1.1",
-      "restore": {
-        "projectUniqueName": "d:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj",
-        "projectName": "ShareX Plugin",
-        "projectPath": "d:\\git\\MacroDeck2-ShareXPlugin\\ShareX Plugin.csproj",
-        "packagesPath": "C:\\Users\\jbcarreon123\\.nuget\\packages\\",
-        "outputPath": "d:\\git\\MacroDeck2-ShareXPlugin\\obj\\",
->>>>>>> 3af82bcd276fdbff3e4991c0a70976bad69272b1
+        "outputPath": "C:\\Users\\jbcarreon123\\RiderProjects\\MacroDeck2-ShareXPlugin\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jbcarreon123\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jbcarreon123\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-<<<<<<< HEAD
-          "netcoreapp3.1"
-=======
-          "net6.0-windows"
->>>>>>> 3af82bcd276fdbff3e4991c0a70976bad69272b1
+          "net7.0-windows"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-<<<<<<< HEAD
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-=======
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
->>>>>>> 3af82bcd276fdbff3e4991c0a70976bad69272b1
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
             "projectReferences": {}
           }
         },
@@ -61,13 +37,8 @@
         }
       },
       "frameworks": {
-<<<<<<< HEAD
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-=======
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
->>>>>>> 3af82bcd276fdbff3e4991c0a70976bad69272b1
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
           "dependencies": {
             "System.Drawing.Common": {
               "target": "Package",
@@ -85,23 +56,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-<<<<<<< HEAD
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
-=======
->>>>>>> 3af82bcd276fdbff3e4991c0a70976bad69272b1
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -110,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

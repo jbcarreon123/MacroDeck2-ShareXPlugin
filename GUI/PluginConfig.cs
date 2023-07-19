@@ -24,6 +24,9 @@ namespace jbcarreon123.ShareXPlugin.GUI
             btnOK.Text = LanguageManager.Strings.Ok;
             btnCancel.Text = PluginLanguageManager.PluginStrings.Cancel;
             textBox1.Text = PluginConfigHelper.GetPath();
+
+            comboBox1.Items.AddRange(PluginLanguageManager.Languages.ToArray());
+            comboBox1.SelectedIndex = PluginLanguageManager.Languages.IndexOf(PluginConfigHelper.GetLang());
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -117,6 +120,16 @@ namespace jbcarreon123.ShareXPlugin.GUI
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            PluginConfigHelper.UpdateLang(PluginLanguageManager.Languages[comboBox1.SelectedIndex]);
+        }
+
+        private void PluginConfig_Load(object sender, EventArgs e)
         {
 
         }

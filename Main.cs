@@ -95,6 +95,7 @@ namespace jbcarreon123.ShareXPlugin
                 new OpenImageHistoryAction(),
                 new OpenMainWindowAction(),
                 new OpenScreenshotsFolderAction(),
+                new PauseScreenRecordingAction(),
                 new PrintScreenAction(),
                 new QRCodeAction(),
                 new QRCodeDecodeFromScreenAction(),

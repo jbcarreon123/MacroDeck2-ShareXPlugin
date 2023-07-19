@@ -132,7 +132,7 @@ Ang ShareX o ang Portable drive letter ay binago.</CantFindEXE1>
 <ShareXPathExpl>Bakit kailangan nito ang Install path ng ShareX?
 
 Dahil walang kontrol ang ShareX
-API(AFAIK) na magagamit ko.
+API na magagamit ko.
 Kung nakakita ako ng isang ShareX control API iyon ay
 katugma sa .NET at Macro Deck
 I-update ko ang plugin na ito para magamit iyon.</ShareXPathExpl>

@@ -24,200 +24,236 @@ namespace jbcarreon123.ShareXPlugin.GUI
             base.Dispose(disposing);
         }
 
-    #region Windows Form Designer generated code
+        #region Windows Form Designer generated code
 
-    /// <summary>
-    ///  Required method for Designer support - do not modify
-    ///  the contents of this method with the code editor.
-    /// </summary>
-    private void InitializeComponent()
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PluginConfig));
-            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
-            this.textBox1 = new SuchByte.MacroDeck.GUI.CustomControls.RoundedTextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnBrowse = new SuchByte.MacroDeck.GUI.CustomControls.ButtonPrimary();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnCancel = new SuchByte.MacroDeck.GUI.CustomControls.ButtonPrimary();
-            this.btnOK = new SuchByte.MacroDeck.GUI.CustomControls.ButtonPrimary();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            textBox1 = new RoundedTextBox();
+            label1 = new System.Windows.Forms.Label();
+            btnBrowse = new ButtonPrimary();
+            label2 = new System.Windows.Forms.Label();
+            btnCancel = new ButtonPrimary();
+            btnOK = new ButtonPrimary();
+            label3 = new System.Windows.Forms.Label();
+            label5 = new System.Windows.Forms.Label();
+            comboBox1 = new RoundedComboBox();
+            label4 = new System.Windows.Forms.Label();
+            SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
-            this.textBox1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox1.Icon = null;
-            this.textBox1.Location = new System.Drawing.Point(13, 53);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.MaxCharacters = 32767;
-            this.textBox1.Multiline = false;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Padding = new System.Windows.Forms.Padding(10, 6, 10, 6);
-            this.textBox1.PasswordChar = false;
-            this.textBox1.PlaceHolderColor = System.Drawing.Color.Gray;
-            this.textBox1.PlaceHolderText = "";
-            this.textBox1.ReadOnly = false;
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.textBox1.SelectionStart = 0;
-            this.textBox1.Size = new System.Drawing.Size(393, 32);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            textBox1.BackColor = System.Drawing.Color.FromArgb(65, 65, 65);
+            textBox1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            textBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            textBox1.Icon = null;
+            textBox1.Location = new System.Drawing.Point(13, 53);
+            textBox1.Margin = new System.Windows.Forms.Padding(4);
+            textBox1.MaxCharacters = 32767;
+            textBox1.Multiline = false;
+            textBox1.Name = "textBox1";
+            textBox1.Padding = new System.Windows.Forms.Padding(10, 6, 10, 6);
+            textBox1.PasswordChar = false;
+            textBox1.PlaceHolderColor = System.Drawing.Color.Gray;
+            textBox1.PlaceHolderText = "";
+            textBox1.ReadOnly = false;
+            textBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            textBox1.SelectionStart = 0;
+            textBox1.Size = new System.Drawing.Size(393, 32);
+            textBox1.TabIndex = 0;
+            textBox1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(13, 30);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 19);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "ShareX Install Path";
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label1.Location = new System.Drawing.Point(13, 30);
+            label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(142, 19);
+            label1.TabIndex = 1;
+            label1.Text = "ShareX Install Path";
             // 
             // btnBrowse
             // 
-            this.btnBrowse.BorderRadius = 8;
-            this.btnBrowse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBrowse.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnBrowse.ForeColor = System.Drawing.Color.White;
-            this.btnBrowse.HoverColor = System.Drawing.Color.Empty;
-            this.btnBrowse.Icon = null;
-            this.btnBrowse.Location = new System.Drawing.Point(419, 53);
-            this.btnBrowse.Margin = new System.Windows.Forms.Padding(4);
-            this.btnBrowse.Name = "btnBrowse";
-            this.btnBrowse.Progress = 0;
-            this.btnBrowse.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(205)))));
-            this.btnBrowse.Size = new System.Drawing.Size(96, 30);
-            this.btnBrowse.TabIndex = 2;
-            this.btnBrowse.Text = "Browse";
-            this.btnBrowse.UseVisualStyleBackColor = true;
-            this.btnBrowse.UseWindowsAccentColor = true;
-            this.btnBrowse.Click += new System.EventHandler(this.button1_Click);
+            btnBrowse.BorderRadius = 8;
+            btnBrowse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnBrowse.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            btnBrowse.ForeColor = System.Drawing.Color.White;
+            btnBrowse.HoverColor = System.Drawing.Color.Empty;
+            btnBrowse.Icon = null;
+            btnBrowse.Location = new System.Drawing.Point(419, 53);
+            btnBrowse.Margin = new System.Windows.Forms.Padding(4);
+            btnBrowse.Name = "btnBrowse";
+            btnBrowse.Progress = 0;
+            btnBrowse.ProgressColor = System.Drawing.Color.FromArgb(0, 103, 205);
+            btnBrowse.Size = new System.Drawing.Size(96, 30);
+            btnBrowse.TabIndex = 2;
+            btnBrowse.Text = "Browse";
+            btnBrowse.UseVisualStyleBackColor = true;
+            btnBrowse.UseWindowsAccentColor = true;
+            btnBrowse.WriteProgress = true;
+            btnBrowse.Click += button1_Click;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label2.Location = new System.Drawing.Point(13, 117);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(308, 133);
-            this.label2.TabIndex = 3;
-            this.label2.Text = resources.GetString("label2.Text");
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            label2.AutoSize = true;
+            label2.BackColor = System.Drawing.Color.FromArgb(45, 45, 45);
+            label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label2.ForeColor = System.Drawing.SystemColors.ControlDark;
+            label2.Location = new System.Drawing.Point(13, 117);
+            label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(308, 133);
+            label2.TabIndex = 3;
+            label2.Text = resources.GetString("label2.Text");
+            label2.Click += label2_Click;
             // 
             // btnCancel
             // 
-            this.btnCancel.BorderRadius = 8;
-            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancel.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.HoverColor = System.Drawing.Color.Empty;
-            this.btnCancel.Icon = null;
-            this.btnCancel.Location = new System.Drawing.Point(419, 220);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Progress = 0;
-            this.btnCancel.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(205)))));
-            this.btnCancel.Size = new System.Drawing.Size(96, 30);
-            this.btnCancel.TabIndex = 4;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.UseWindowsAccentColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.button2_Click);
+            btnCancel.BorderRadius = 8;
+            btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnCancel.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            btnCancel.ForeColor = System.Drawing.Color.White;
+            btnCancel.HoverColor = System.Drawing.Color.Empty;
+            btnCancel.Icon = null;
+            btnCancel.Location = new System.Drawing.Point(419, 220);
+            btnCancel.Margin = new System.Windows.Forms.Padding(4);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Progress = 0;
+            btnCancel.ProgressColor = System.Drawing.Color.FromArgb(0, 103, 205);
+            btnCancel.Size = new System.Drawing.Size(96, 30);
+            btnCancel.TabIndex = 4;
+            btnCancel.Text = "Cancel";
+            btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.UseWindowsAccentColor = true;
+            btnCancel.WriteProgress = true;
+            btnCancel.Click += button2_Click;
             // 
             // btnOK
             // 
-            this.btnOK.BorderRadius = 8;
-            this.btnOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOK.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnOK.ForeColor = System.Drawing.Color.White;
-            this.btnOK.HoverColor = System.Drawing.Color.Empty;
-            this.btnOK.Icon = null;
-            this.btnOK.Location = new System.Drawing.Point(419, 182);
-            this.btnOK.Margin = new System.Windows.Forms.Padding(4);
-            this.btnOK.Name = "btnOK";
-            this.btnOK.Progress = 0;
-            this.btnOK.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(205)))));
-            this.btnOK.Size = new System.Drawing.Size(96, 30);
-            this.btnOK.TabIndex = 5;
-            this.btnOK.TabStop = false;
-            this.btnOK.Text = "OK";
-            this.btnOK.UseVisualStyleBackColor = true;
-            this.btnOK.UseWindowsAccentColor = true;
-            this.btnOK.Click += new System.EventHandler(this.button3_Click);
+            btnOK.BorderRadius = 8;
+            btnOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnOK.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            btnOK.ForeColor = System.Drawing.Color.White;
+            btnOK.HoverColor = System.Drawing.Color.Empty;
+            btnOK.Icon = null;
+            btnOK.Location = new System.Drawing.Point(419, 182);
+            btnOK.Margin = new System.Windows.Forms.Padding(4);
+            btnOK.Name = "btnOK";
+            btnOK.Progress = 0;
+            btnOK.ProgressColor = System.Drawing.Color.FromArgb(0, 103, 205);
+            btnOK.Size = new System.Drawing.Size(96, 30);
+            btnOK.TabIndex = 5;
+            btnOK.TabStop = false;
+            btnOK.Text = "OK";
+            btnOK.UseVisualStyleBackColor = true;
+            btnOK.UseWindowsAccentColor = true;
+            btnOK.WriteProgress = true;
+            btnOK.Click += button3_Click;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.label3.Location = new System.Drawing.Point(13, 89);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(347, 19);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "ShareX.exe does not exist on the specified path.";
-            this.label3.Visible = false;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            label3.AutoSize = true;
+            label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label3.ForeColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            label3.Location = new System.Drawing.Point(13, 89);
+            label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(347, 19);
+            label3.TabIndex = 6;
+            label3.Text = "ShareX.exe does not exist on the specified path.";
+            label3.Visible = false;
+            label3.Click += label3_Click;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.label5.Location = new System.Drawing.Point(13, 89);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(178, 19);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "This section is required.";
-            this.label5.Visible = false;
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            label5.AutoSize = true;
+            label5.BackColor = System.Drawing.Color.Transparent;
+            label5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label5.ForeColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            label5.Location = new System.Drawing.Point(13, 89);
+            label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(178, 19);
+            label5.TabIndex = 8;
+            label5.Text = "This section is required.";
+            label5.Visible = false;
+            label5.Click += label5_Click;
+            // 
+            // comboBox1
+            // 
+            comboBox1.BackColor = System.Drawing.Color.FromArgb(65, 65, 65);
+            comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            comboBox1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            comboBox1.Icon = null;
+            comboBox1.Location = new System.Drawing.Point(97, 266);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Padding = new System.Windows.Forms.Padding(8, 2, 8, 2);
+            comboBox1.SelectedIndex = -1;
+            comboBox1.SelectedItem = null;
+            comboBox1.Size = new System.Drawing.Size(170, 26);
+            comboBox1.TabIndex = 9;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label4.Location = new System.Drawing.Point(13, 269);
+            label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(77, 19);
+            label4.TabIndex = 10;
+            label4.Text = "Language";
             // 
             // PluginConfig
             // 
-            this.AcceptButton = this.btnOK;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(528, 259);
-            this.ControlBox = false;
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnBrowse);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.btnOK);
-            this.Controls.Add(this.label3);
-            this.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Location = new System.Drawing.Point(0, 0);
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "PluginConfig";
-            this.Text = "PluginConfiguration";
-            this.Controls.SetChildIndex(this.label3, 0);
-            this.Controls.SetChildIndex(this.btnOK, 0);
-            this.Controls.SetChildIndex(this.btnCancel, 0);
-            this.Controls.SetChildIndex(this.label2, 0);
-            this.Controls.SetChildIndex(this.btnBrowse, 0);
-            this.Controls.SetChildIndex(this.label1, 0);
-            this.Controls.SetChildIndex(this.textBox1, 0);
-            this.Controls.SetChildIndex(this.label5, 0);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AcceptButton = btnOK;
+            AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            BackColor = System.Drawing.Color.FromArgb(45, 45, 45);
+            CancelButton = btnCancel;
+            ClientSize = new System.Drawing.Size(528, 309);
+            ControlBox = false;
+            Controls.Add(label4);
+            Controls.Add(comboBox1);
+            Controls.Add(label5);
+            Controls.Add(textBox1);
+            Controls.Add(label1);
+            Controls.Add(btnBrowse);
+            Controls.Add(label2);
+            Controls.Add(btnCancel);
+            Controls.Add(btnOK);
+            Controls.Add(label3);
+            Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            Location = new System.Drawing.Point(0, 0);
+            Margin = new System.Windows.Forms.Padding(4);
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "PluginConfig";
+            Text = "PluginConfiguration";
+            Load += PluginConfig_Load;
+            Controls.SetChildIndex(label3, 0);
+            Controls.SetChildIndex(btnOK, 0);
+            Controls.SetChildIndex(btnCancel, 0);
+            Controls.SetChildIndex(label2, 0);
+            Controls.SetChildIndex(btnBrowse, 0);
+            Controls.SetChildIndex(label1, 0);
+            Controls.SetChildIndex(textBox1, 0);
+            Controls.SetChildIndex(label5, 0);
+            Controls.SetChildIndex(comboBox1, 0);
+            Controls.SetChildIndex(label4, 0);
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -231,5 +267,7 @@ namespace jbcarreon123.ShareXPlugin.GUI
         private ButtonPrimary btnOK;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
+        private RoundedComboBox comboBox1;
+        private System.Windows.Forms.Label label4;
     }
 }
