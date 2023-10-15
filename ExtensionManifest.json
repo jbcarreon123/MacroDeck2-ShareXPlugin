@@ -6,6 +6,7 @@
   "version": "1.1.1",
   "repository": "https://github.com/jbcarreon123/MacroDeck2-ShareXPlugin",
   "target-plugin-api-version": 40,
+  "target-macro-deck-version" : "2.13.0-b9",
   "dll": "ShareX Plugin.dll",
   "author-discord": 908002848967626842
-  }
+}
